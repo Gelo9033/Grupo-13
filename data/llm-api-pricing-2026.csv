@@ -1,0 +1,27 @@
+provider,model,input_per_1m_tokens_usd,output_per_1m_tokens_usd,context_window,max_output_tokens,speed_tokens_per_sec,open_source,release_year,api_endpoint,pricing_page,explore
+OpenAI,gpt-4o,2.50,10.00,128000,16384,80,false,2024,https://api.openai.com/v1/chat/completions,https://openai.com/api/pricing,https://comparedge.com/tools/gpt-4o
+OpenAI,gpt-4o-mini,0.15,0.60,128000,16384,100,false,2024,https://api.openai.com/v1/chat/completions,https://openai.com/api/pricing,https://comparedge.com/tools/chatgpt
+OpenAI,o1,15.00,60.00,200000,100000,30,false,2024,https://api.openai.com/v1/chat/completions,https://openai.com/api/pricing,https://comparedge.com/tools/openai-o1
+OpenAI,o3-mini,1.10,4.40,200000,100000,60,false,2025,https://api.openai.com/v1/chat/completions,https://openai.com/api/pricing,https://comparedge.com/tools/chatgpt
+Anthropic,claude-sonnet-4,3.00,15.00,200000,8192,70,false,2025,https://api.anthropic.com/v1/messages,https://anthropic.com/pricing,https://comparedge.com/tools/claude
+Anthropic,claude-haiku-3.5,0.80,4.00,200000,8192,120,false,2024,https://api.anthropic.com/v1/messages,https://anthropic.com/pricing,https://comparedge.com/tools/claude
+Anthropic,claude-opus-4,15.00,75.00,200000,8192,25,false,2025,https://api.anthropic.com/v1/messages,https://anthropic.com/pricing,https://comparedge.com/tools/claude
+Google,gemini-2.5-pro,1.25,10.00,1000000,65536,60,false,2025,https://generativelanguage.googleapis.com,https://ai.google.dev/pricing,https://comparedge.com/tools/google-gemini
+Google,gemini-2.5-flash,0.15,0.60,1000000,65536,150,false,2025,https://generativelanguage.googleapis.com,https://ai.google.dev/pricing,https://comparedge.com/tools/google-gemini
+Google,gemini-2.0-flash,0.10,0.40,1000000,8192,180,false,2025,https://generativelanguage.googleapis.com,https://ai.google.dev/pricing,https://comparedge.com/tools/google-gemini
+Meta,llama-3.3-70b,0.18,0.18,131072,4096,90,true,2024,varies (Replicate/Together/Groq),https://llama.meta.com,https://comparedge.com/tools/llama-meta
+Meta,llama-3.1-405b,0.80,0.80,131072,4096,40,true,2024,varies (Replicate/Together),https://llama.meta.com,https://comparedge.com/tools/llama-3-1
+Meta,llama-4-maverick,0.20,0.20,1000000,8192,100,true,2025,varies (Replicate/Together/Groq),https://llama.meta.com,https://comparedge.com/tools/llama-meta
+Mistral,mistral-large,2.00,6.00,128000,8192,70,false,2024,https://api.mistral.ai/v1/chat/completions,https://mistral.ai/pricing,https://comparedge.com/tools/mistral-ai
+Mistral,mistral-small,0.10,0.30,128000,8192,130,false,2025,https://api.mistral.ai/v1/chat/completions,https://mistral.ai/pricing,https://comparedge.com/tools/mistral-ai
+Mistral,codestral,0.30,0.90,256000,8192,100,false,2024,https://api.mistral.ai/v1/chat/completions,https://mistral.ai/pricing,https://comparedge.com/tools/mistral-ai
+DeepSeek,deepseek-v3,0.27,1.10,128000,8192,60,true,2025,https://api.deepseek.com/v1/chat/completions,https://platform.deepseek.com/api-docs/pricing,https://comparedge.com/tools/deepseek
+DeepSeek,deepseek-r1,0.55,2.19,128000,8192,30,true,2025,https://api.deepseek.com/v1/chat/completions,https://platform.deepseek.com/api-docs/pricing,https://comparedge.com/tools/deepseek
+Cohere,command-r-plus,2.50,10.00,128000,4096,55,false,2024,https://api.cohere.ai/v1/chat,https://cohere.com/pricing,https://comparedge.com/tools/command-r-plus
+Cohere,command-r,0.15,0.60,128000,4096,85,false,2024,https://api.cohere.ai/v1/chat,https://cohere.com/pricing,https://comparedge.com/tools/command-r-plus
+xAI,grok-2,2.00,10.00,131072,8192,50,false,2024,https://api.x.ai/v1/chat/completions,https://x.ai/api,https://comparedge.com/tools/grok
+xAI,grok-3-mini,0.30,0.50,131072,8192,120,false,2025,https://api.x.ai/v1/chat/completions,https://x.ai/api,https://comparedge.com/tools/grok-2
+Together AI,llama-3.3-70b (hosted),0.54,0.54,131072,4096,100,true,2024,https://api.together.xyz/v1/chat/completions,https://together.ai/pricing,https://comparedge.com/tools/llama-meta
+Groq,llama-3.3-70b (hosted),0.05,0.05,131072,4096,300,true,2024,https://api.groq.com/openai/v1/chat/completions,https://groq.com/pricing,https://comparedge.com/tools/llama-meta
+Replicate,llama-3.1-405b (hosted),0.65,0.65,131072,4096,30,true,2024,https://api.replicate.com/v1/predictions,https://replicate.com/pricing,https://comparedge.com/tools/replicate
+AWS Bedrock,claude-sonnet-4 (hosted),3.00,15.00,200000,8192,60,false,2025,https://bedrock-runtime.amazonaws.com,https://aws.amazon.com/bedrock/pricing,https://comparedge.com/tools/claude
